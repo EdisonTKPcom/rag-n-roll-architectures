@@ -1,7 +1,6 @@
-# Multimodal RAG
 ```mermaid
 flowchart LR
-    Q[Query (Text/Img/Audio)] --> ROUTE{Modality Router}
+    Q[Query with Text/Img/Audio] --> ROUTE{Modality Router}
     ROUTE -->|Text| RET_T[Text Retriever]
     ROUTE -->|Image| RET_I[Image/Vector Retriever]
     ROUTE -->|Audio/Video| RET_A[AV Index Retriever]

@@ -1,4 +1,3 @@
-# Agentic RAG (Router)
 ```mermaid
 flowchart LR
     Q[User Query] --> AGENT{Policy/Tool Router}

@@ -1,4 +1,3 @@
-# Graph RAG
 ```mermaid
 flowchart LR
     Q[Query] --> KGR[Graph/KG Query]

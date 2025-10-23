@@ -1,4 +1,3 @@
-# Hybrid RAG
 ```mermaid
 flowchart LR
     Q[Query] --> VRET[Vector Search]
