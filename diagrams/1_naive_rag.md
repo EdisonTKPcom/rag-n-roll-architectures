@@ -1,4 +1,3 @@
-# Naive RAG
 ```mermaid
 flowchart LR
     Q[Query] --> RET[Vector Retriever]

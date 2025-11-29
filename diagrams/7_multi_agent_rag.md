@@ -1,4 +1,3 @@
-# Multi‑Agent RAG
 ```mermaid
 flowchart LR
     Q[Query] --> CORD[Coordinator Agent]

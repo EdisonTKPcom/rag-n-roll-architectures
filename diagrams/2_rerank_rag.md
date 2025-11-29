@@ -1,4 +1,3 @@
-# Retrieve‑and‑Rerank RAG
 ```mermaid
 flowchart LR
     Q[Query] --> RET[Vector Retriever]
