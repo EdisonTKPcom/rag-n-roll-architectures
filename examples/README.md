@@ -48,7 +48,7 @@ Each example is self-contained and can be run directly:
 python 1_naive_rag.py
 
 # Run all examples
-for i in {1..7}; do python ${i}_*.py; done
+for f in 1_naive_rag.py 2_rerank_rag.py 3_multimodal_rag.py 4_graph_rag.py 5_hybrid_rag.py 6_agent_router_rag.py 7_multi_agent_rag.py; do python "$f"; done
 ```
 
 ## Example Output

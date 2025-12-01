@@ -42,7 +42,7 @@ class Document:
         return hash(self.id)
     
     def __eq__(self, other):
-        return self.id == other.id
+        return isinstance(other, Document) and self.id == other.id
 
 
 @dataclass
